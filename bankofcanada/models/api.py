@@ -1,6 +1,6 @@
-from base import BaseModelExtract, BaseModelLoad
-
 import requests
+
+from .base import BaseModelExtract, BaseModelLoad
 
 class ExtractModelApi(BaseModelExtract):
     def __init__(self):
