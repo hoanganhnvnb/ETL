@@ -71,5 +71,5 @@ if __name__ == '__main__':
     load_to_csv(df, csv_target_path)
     sql_connector = sqlite3.connect(database_name)
     load_to_database(df, sql_connector, table_name)
-    query = f"SELECT * FROM {table_name} LIMIT 5"
+    query = "SELECT AVG(MC_GBP_Billion) FROM Largest_banks"
     run_query(sql_connector, query)

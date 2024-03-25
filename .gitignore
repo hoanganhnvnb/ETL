@@ -2,3 +2,7 @@
 *.pyc
 log/*
 *.ini
+*.csv
+*.db
+data/*
+log/*
